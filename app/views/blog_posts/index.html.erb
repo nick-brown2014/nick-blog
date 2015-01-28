@@ -1,0 +1,33 @@
+<script type="text/javascript">
+  $(document).ready(function() {
+    $(".posts").click(function(event) {
+      event.preventDefault();
+      var text_name = "#text" + $(this).attr("id");
+      $(text_name).toggleClass("open");
+    });
+  });
+</script>
+
+<header class="nav_header">
+  <%= link_to("Home", root_path) %> - <%= link_to("About Me", user_path(@user.id)) %> - <%= link_to("Projects", projects_path) %>
+  <div class ="top_line"></div>
+</header>
+
+<h3 id="blog_head">My Blog</h3>
+
+<div id="blog_posts">
+  <ul>
+    <% @blog_posts.each do |post| %>
+      <li class="posts" id=<%=post.id %>><a href="/">Blog Post <%= post.id%>: <%= post.title %></a></li>
+      <p class="blog_text" id=text<%=post.id %>><%= post.text %></p>
+    <% end %>
+</ul>
+</div>
+
+<footer class="nav_footer">
+  <div class="bot_line"></div>
+  <a href="mailto:nick.brown2014@gmail.com?Subject=Hello"><img id="mail_nav" src="/assets/email_logo.gif"></a>
+  <a href="https://github.com/nick-brown2014"><img src="/assets/github-clear.png"></a>
+  <a href="https://www.linkedin.com/pub/nick-brown/88/178/b62/"><img id="link_nav" src="/assets/linkedin_png.png"></a>
+  <a href="https://twitter.com/SunnyBrownCC"><img src="/assets/twitter-bird.png"></a>
+</footer>

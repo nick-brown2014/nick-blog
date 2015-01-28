@@ -1,0 +1,90 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+.blog_text {
+  display: none;
+}
+
+.open {
+  display: block;
+}
+
+.posts a {
+  color: black;
+}
+
+.posts {
+  list-style: none;
+}
+
+.nav_header {
+  text-align: center;
+}
+
+.nav_header a {
+  color: black;
+}
+
+.top_line {
+  margin-top: 10px;
+  border: 1px solid black;
+}
+
+.bot_line {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  border: 1px solid black;
+}
+
+.project_text {
+  list-style: none;
+}
+
+.nav_footer img {
+  width: 60px;
+  height: auto;
+  margin-right: -5px;
+}
+
+#mail_nav {
+  width: 80px;
+  height: auto;
+}
+
+#link_nav {
+  margin-right: 5px;
+}
+
+.nav_footer {
+  text-align: center;
+}
+
+* {
+  font-family: "Inconsolata", monospace;
+}
+
+#about_text {
+  width: 80%;
+  margin-left: 5%;
+}
+
+#about_head {
+  margin-left: 5%;
+}
+
+#blog_head {
+  margin-left: 35px;
+}

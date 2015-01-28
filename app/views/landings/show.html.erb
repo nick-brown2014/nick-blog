@@ -1,0 +1,125 @@
+<style>
+* {
+    box-sizing: border-box;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+#index_body {
+    position: relative;
+    display: table-cell;
+    height: 650px;
+    width: 650px;
+    overflow: auto;
+    background: url(https://raw.githubusercontent.com/nick-brown2014/nick-brown2014.github.io/master/blog-posts/imgs/StickNickTree2.png) no-repeat center center;
+    background-size: auto 100%;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+#about {
+    position: absolute;
+    top: 7%;
+    left: 18%;
+    font-size: 1em;
+}
+
+#blog {
+    position: absolute;
+    top: 19%;
+    left: 56%;
+    font-size: 1em;
+}
+
+#projects {
+    position: absolute;
+    top: 35%;
+    left: 25%;
+    font-size: 1em;
+}
+
+h1 {
+    position: absolute;
+    top: 47%;
+    left: 33%;
+    font-size: 1.75em;
+}
+
+h6 {
+    position: absolute;
+    top: 51%;
+    left: 37%;
+    font-size: 0.8em;
+}
+
+.nav_image {
+    border: 1px solid black;
+    height: 42px;
+    width: auto;
+}
+
+#twitter {
+    width: 50px;
+    heigth: auto;
+    position: absolute;
+    top: 32%;
+    left: 65%;
+}
+
+#linkedin {
+    width: 42px;
+    heigth: auto;
+    position: absolute;
+    top: 38%;
+    left: 59%;
+}
+
+#github {
+    width: 42px;
+    heigth: auto;
+    position: absolute;
+    top: 40%;
+    left: 66%;
+}
+
+#email {
+    width: 42px;
+    heigth: auto;
+    position: absolute;
+    top: 29%;
+    left: 79%;
+}
+
+#prof_pic {
+    width: 150px;
+    height: auto;
+    position: absolute;
+    top: 68%;
+    left: 10%;
+}
+
+</style>
+
+<body id="index_body">
+  <nav>
+    <div id="blog"><%= link_to("Blog", blog_posts_path) %></div>
+    <div id="projects"><%= link_to("Projects", projects_path) %></div>
+    <div id="about"><%= link_to("About Me", user_path(@user.id)) %></div>
+  </nav>
+  <a href ="https://twitter.com/SunnyBrownCC"><img id="twitter" src="https://raw.githubusercontent.com/nick-brown2014/nick-brown2014.github.io/master/blog-posts/imgs/twitter-clear.png"/></a>
+  <a href ="https://www.linkedin.com/pub/nick-brown/88/178/b62/"><img id="linkedin" src="https://raw.githubusercontent.com/nick-brown2014/nick-brown2014.github.io/master/blog-posts/imgs/linkedin_png.png" /></a>
+  <a href ="https://github.com/nick-brown2014"><img id="github" src="https://raw.githubusercontent.com/nick-brown2014/nick-brown2014.github.io/master/blog-posts/imgs/github-clear.png" /></a>
+  <a href="mailto:nick.brown2014@gmail.com?Subject=Hello" target="_top"><img id="email" src="https://raw.githubusercontent.com/nick-brown2014/nick-brown2014.github.io/master/blog-posts/imgs/email_logo.gif" /></a>
+  <header>
+      <h1>Nick Brown</h1>
+      <h6>Web Developer</h6>
+  </header>
+  <img id="prof_pic" src="https://raw.githubusercontent.com/nick-brown2014/nick-brown2014.github.io/master/blog-posts/imgs/StickNick.png" />
+</body>
