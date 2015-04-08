@@ -8,13 +8,13 @@ html {
     margin: auto;
 }
 
-#index_body {
+body {
     position: relative;
     display: table-cell;
     height: 650px;
     width: 650px;
     overflow: auto;
-    background: url(https://raw.githubusercontent.com/nick-brown2014/nick-brown2014.github.io/master/blog-posts/imgs/StickNickTree2.png) no-repeat center center;
+    background: url(<%= asset_path 'blog-index-background.png' %>) no-repeat center center;
     background-size: auto 100%;
 }
 
@@ -33,19 +33,19 @@ nav a {
 
 #blog {
     position: absolute;
-    top: 19%;
+    top: 20%;
     left: 56%;
     font-size: 1em;
 }
 
 #projects {
     position: absolute;
-    top: 35%;
+    top: 36%;
     left: 25%;
     font-size: 1em;
 }
 
-h1 {
+#page-title {
     position: absolute;
     top: 47%;
     left: 33%;
@@ -105,21 +105,132 @@ h6 {
     left: 10%;
 }
 
+#foot-about {
+    display: block;
+    position: absolute;
+    bottom: -150px;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 150px;
+}
+
+#foot-about h1 {
+    color: black;
+    text-align: center;
+}
+
+#foot-about p {
+    color: black;
+    text-align: center;
+}
+
+#foot-blog {
+    display: block;
+    position: absolute;
+    bottom: -300px;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 150px;
+    background-color: black;
+    border-radius: 5px;
+}
+
+#foot-blog h1 {
+    color: white;
+    text-align: center;
+}
+
+#foot-blog p {
+    color: white;
+    text-align: center;
+}
+
+#foot-projects {
+    display: block;
+    position: absolute;
+    bottom: -450px;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 150px;
+}
+
+#foot-projects h1 {
+    color: black;
+    text-align: center;
+}
+
+#foot-projects p {
+    color: black;
+    text-align: center;
+}
+
+.nav_footer img {
+  width: 60px;
+  height: auto;
+  margin-right: -5px;
+}
+
+#mail_nav {
+  width: 80px;
+  height: auto;
+}
+
+#link_nav {
+  margin-right: 5px;
+}
+
+.nav_footer {
+  text-align: center;
+  position: absolute;
+  bottom: -540px;
+  width: 100%;
+}
+
+.bot_line {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  border: 1px solid black;
+}
+
 </style>
 
-<body id="index_body">
-  <nav>
-    <div id="blog"><%= link_to("Blog", blog_posts_path) %></div>
-    <div id="projects"><%= link_to("Projects", projects_path) %></div>
-    <div id="about"><%= link_to("About Me", user_path(@user.id)) %></div>
-  </nav>
-  <a href ="https://twitter.com/SunnyBrownCC" target="_blank"><img id="twitter" src="https://raw.githubusercontent.com/nick-brown2014/nick-brown2014.github.io/master/blog-posts/imgs/twitter-clear.png"/></a>
-  <a href ="https://www.linkedin.com/pub/nick-brown/88/178/b62/" target="_blank"><img id="linkedin" src="https://raw.githubusercontent.com/nick-brown2014/nick-brown2014.github.io/master/blog-posts/imgs/linkedin_png.png" /></a>
-  <a href ="https://github.com/nick-brown2014" target="_blank"><img id="github" src="https://raw.githubusercontent.com/nick-brown2014/nick-brown2014.github.io/master/blog-posts/imgs/github-clear.png" /></a>
-  <a href="mailto:nick.brown2014@gmail.com?Subject=Hello" target="_top"><img id="email" src="https://raw.githubusercontent.com/nick-brown2014/nick-brown2014.github.io/master/blog-posts/imgs/email_logo.gif" /></a>
-  <header>
-      <h1>Nick Brown</h1>
+<body>
+    <nav>
+        <div id="blog"><%= link_to("Blog", blog_posts_path) %></div>
+        <div id="projects"><%= link_to("Projects", projects_path) %></div>
+        <div id="about"><%= link_to("About Me", user_path(@user.id)) %></div>
+    </nav>
+    <a href ="https://twitter.com/SunnyBrownCC" target="_blank"><img id="twitter" src="https://raw.githubusercontent.com/nick-brown2014/nick-brown2014.github.io/master/blog-posts/imgs/twitter-clear.png"/></a>
+    <a href ="https://www.linkedin.com/pub/nick-brown/88/178/b62/" target="_blank"><img id="linkedin" src="https://raw.githubusercontent.com/nick-brown2014/nick-brown2014.github.io/master/blog-posts/imgs/linkedin_png.png" /></a>
+    <a href ="https://github.com/nick-brown2014" target="_blank"><img id="github" src="https://raw.githubusercontent.com/nick-brown2014/nick-brown2014.github.io/master/blog-posts/imgs/github-clear.png" /></a>
+    <a href="mailto:nick.brown2014@gmail.com?Subject=Hello" target="_top"><img id="email" src="https://raw.githubusercontent.com/nick-brown2014/nick-brown2014.github.io/master/blog-posts/imgs/email_logo.gif" /></a>
+    <header>
+      <h1 id = "page-title">Nick Brown</h1>
       <h6>Web Developer</h6>
-  </header>
-  <img id="prof_pic" src="https://raw.githubusercontent.com/nick-brown2014/nick-brown2014.github.io/master/blog-posts/imgs/StickNick.png" />
+    </header>
+    <img id="prof_pic" src="https://raw.githubusercontent.com/nick-brown2014/nick-brown2014.github.io/master/blog-posts/imgs/StickNick.png" />
+    <footer>
+        <div id="foot-about">
+            <h1>About Me</h1>
+            <p>I am a Chicago based developer who loves doodling and will incorporate that into web design no matter how many people tell him it's unprofessional.</p>
+        </div>
+        <div id="foot-blog">
+            <h1>Blog Posts</h1>
+            <p>A bunch of blog posts that I wrote about programming while I didn't know anything about it!  At least they're kind of entertaining...</p>
+        </div>
+        <div id="foot-projects">
+            <h1>Projects</h1>
+            <p>These are some of the projects that I have worked on at / since DBC!  Check back on this section a lot, I intend to keep it growing!</p>
+        </div>
+    </footer>
+    <div class="nav_footer">
+      <div class="bot_line"></div>
+      <a href="mailto:nick.brown2014@gmail.com?Subject=Hello" target="_top"><img id="mail_nav" src="https://raw.githubusercontent.com/nick-brown2014/nick-brown2014.github.io/master/blog-posts/imgs/email_logo.gif"></a>
+      <a href="https://github.com/nick-brown2014" target="_blank"><img src="https://raw.githubusercontent.com/nick-brown2014/nick-brown2014.github.io/master/blog-posts/imgs/github-clear.png"></a>
+      <a href="https://www.linkedin.com/pub/nick-brown/88/178/b62/" target="_blank"><img id="link_nav" src="https://raw.githubusercontent.com/nick-brown2014/nick-brown2014.github.io/master/blog-posts/imgs/linkedin_png.png"></a>
+      <a href="https://twitter.com/SunnyBrownCC" target="_blank"><img src="https://raw.githubusercontent.com/nick-brown2014/nick-brown2014.github.io/master/blog-posts/imgs/twitter-bird.png"></a>
+    </div>
 </body>
