@@ -124,6 +124,11 @@ h6 {
     color: black;
 }
 
+#foot-about h1 a:hover {
+    color: white;
+    -webkit-text-stroke: 0.1px black;
+}
+
 #foot-about p {
     color: black;
     text-align: center;
@@ -137,8 +142,6 @@ h6 {
     margin-left: 5%;
     margin-right: 5%;
     height: 150px;
-    background-color: black;
-    border-radius: 5px;
 }
 
 #foot-blog h1 {
@@ -147,18 +150,23 @@ h6 {
 
 #foot-blog h1 a {
     text-decoration: none;
+    color: black;
+}
+
+#foot-blog h1 a:hover {
     color: white;
+    -webkit-text-stroke: 0.1px black;
 }
 
 #foot-blog p {
-    color: white;
+    color: black;
     text-align: center;
 }
 
 #foot-projects {
     display: block;
     position: absolute;
-    bottom: -450px;
+    bottom: -440px;
     width: 90%;
     margin-left: 5%;
     margin-right: 5%;
@@ -172,6 +180,11 @@ h6 {
 #foot-projects h1 a {
     text-decoration: none;
     color: black;
+}
+
+#foot-projects h1 a:hover {
+    color: white;
+    -webkit-text-stroke: 0.1px black;
 }
 
 #foot-projects p {
@@ -205,6 +218,20 @@ h6 {
   margin-top: 15px;
   margin-bottom: 10px;
   border: 1px solid black;
+  width: 90%;
+  margin: auto;
+}
+
+#about-blog-line {
+    position: absolute;
+    bottom: -150px;
+    left: 5%;
+}
+
+#blog-projects-line {
+    position: absolute;
+    bottom: -300px;
+    left: 5%;
 }
 
 </style>
@@ -229,10 +256,12 @@ h6 {
             <h1><%= link_to("About Me", user_path(@user.id)) %></h1>
             <p>I am a Chicago based developer who loves doodling and will incorporate that into web design no matter how many people tell him it's unprofessional.</p>
         </div>
+<!--         <div class="bot_line" id="about-blog-line"></div> -->
         <div id="foot-blog">
             <h1><%= link_to("Blog Posts", blog_posts_path) %></h1>
             <p>A bunch of blog posts that I wrote about programming while I didn't know anything about it!  At least they're kind of entertaining...</p>
         </div>
+<!--         <div class="bot_line" id="blog-projects-line"></div> -->
         <div id="foot-projects">
             <h1><%= link_to("Projects", projects_path) %></h1>
             <p>These are some of the projects that I have worked since I started programming.  Check back on this section often as I intend to keep it growing!</p>
