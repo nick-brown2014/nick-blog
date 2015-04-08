@@ -116,8 +116,12 @@ h6 {
 }
 
 #foot-about h1 {
-    color: black;
     text-align: center;
+}
+
+#foot-about h1 a {
+    text-decoration: none;
+    color: black;
 }
 
 #foot-about p {
@@ -138,8 +142,12 @@ h6 {
 }
 
 #foot-blog h1 {
-    color: white;
     text-align: center;
+}
+
+#foot-blog h1 a {
+    text-decoration: none;
+    color: white;
 }
 
 #foot-blog p {
@@ -158,8 +166,12 @@ h6 {
 }
 
 #foot-projects h1 {
-    color: black;
     text-align: center;
+}
+
+#foot-projects h1 a {
+    text-decoration: none;
+    color: black;
 }
 
 #foot-projects p {
@@ -214,16 +226,16 @@ h6 {
     <img id="prof_pic" src="https://raw.githubusercontent.com/nick-brown2014/nick-brown2014.github.io/master/blog-posts/imgs/StickNick.png" />
     <footer>
         <div id="foot-about">
-            <h1>About Me</h1>
+            <h1><%= link_to("About Me", user_path(@user.id)) %></h1>
             <p>I am a Chicago based developer who loves doodling and will incorporate that into web design no matter how many people tell him it's unprofessional.</p>
         </div>
         <div id="foot-blog">
-            <h1>Blog Posts</h1>
+            <h1><%= link_to("Blog Posts", blog_posts_path) %></h1>
             <p>A bunch of blog posts that I wrote about programming while I didn't know anything about it!  At least they're kind of entertaining...</p>
         </div>
         <div id="foot-projects">
-            <h1>Projects</h1>
-            <p>These are some of the projects that I have worked since I started programming!  Check back on this section often as I intend to keep it growing!</p>
+            <h1><%= link_to("Projects", projects_path) %></h1>
+            <p>These are some of the projects that I have worked since I started programming.  Check back on this section often as I intend to keep it growing!</p>
         </div>
     </footer>
     <div class="nav_footer">
