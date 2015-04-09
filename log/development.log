@@ -8028,3 +8028,842 @@ Processing by LandingsController#show as HTML
   [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1[0m
   Rendered landings/show.html.erb within layouts/application (0.2ms)
 Completed 200 OK in 22ms (Views: 20.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2015-04-09 11:50:22 -0500
+Processing by LandingsController#show as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered landings/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 59ms (Views: 57.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-04-09 11:50:22 -0500
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-04-09 11:50:22 -0500
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for ::1 at 2015-04-09 11:50:22 -0500
+
+
+Started GET "/" for ::1 at 2015-04-09 11:51:25 -0500
+Processing by LandingsController#show as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered landings/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 79ms (Views: 76.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-04-09 11:51:25 -0500
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for ::1 at 2015-04-09 11:51:25 -0500
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-04-09 11:51:25 -0500
+
+
+Started GET "/" for ::1 at 2015-04-09 11:52:53 -0500
+Processing by LandingsController#show as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered landings/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 66ms (Views: 64.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-04-09 11:52:54 -0500
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for ::1 at 2015-04-09 11:52:54 -0500
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-04-09 11:52:54 -0500
+
+
+Started GET "/" for ::1 at 2015-04-09 11:53:28 -0500
+Processing by LandingsController#show as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered landings/show.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 26ms (Views: 23.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-04-09 11:53:28 -0500
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-04-09 11:53:28 -0500
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for ::1 at 2015-04-09 11:53:28 -0500
+
+
+Started GET "/" for ::1 at 2015-04-09 11:54:48 -0500
+Processing by LandingsController#show as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered landings/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 22ms (Views: 20.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-04-09 11:54:48 -0500
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for ::1 at 2015-04-09 11:54:48 -0500
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-04-09 11:54:48 -0500
+
+
+Started GET "/" for ::1 at 2015-04-09 11:55:28 -0500
+Processing by LandingsController#show as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered landings/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 21ms (Views: 19.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-04-09 11:55:28 -0500
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-04-09 11:55:28 -0500
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for ::1 at 2015-04-09 11:55:28 -0500
+
+
+Started GET "/" for ::1 at 2015-04-09 11:56:23 -0500
+Processing by LandingsController#show as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered landings/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 21ms (Views: 18.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-04-09 11:56:23 -0500
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-04-09 11:56:23 -0500
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for ::1 at 2015-04-09 11:56:23 -0500
+
+
+Started GET "/" for ::1 at 2015-04-09 11:58:00 -0500
+Processing by LandingsController#show as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered landings/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 68ms (Views: 65.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-04-09 11:58:00 -0500
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for ::1 at 2015-04-09 11:58:00 -0500
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-04-09 11:58:00 -0500
+
+
+Started GET "/" for ::1 at 2015-04-09 11:58:31 -0500
+Processing by LandingsController#show as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered landings/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 64ms (Views: 62.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-04-09 11:58:31 -0500
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for ::1 at 2015-04-09 11:58:31 -0500
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-04-09 11:58:31 -0500
+
+
+Started GET "/" for ::1 at 2015-04-09 11:59:17 -0500
+Processing by LandingsController#show as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered landings/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 68ms (Views: 66.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-04-09 11:59:17 -0500
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-04-09 11:59:17 -0500
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for ::1 at 2015-04-09 11:59:17 -0500
+
+
+Started GET "/blog_posts" for ::1 at 2015-04-09 11:59:18 -0500
+Processing by BlogPostsController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mBlogPost Load (0.2ms)[0m  [1mSELECT "blog_posts".* FROM "blog_posts" WHERE "blog_posts"."user_id" = $1[0m  [["user_id", 1]]
+  Rendered blog_posts/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 22ms (Views: 20.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2015-04-09 11:59:20 -0500
+Processing by LandingsController#show as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered landings/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 21ms (Views: 19.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/blog_posts" for ::1 at 2015-04-09 12:01:19 -0500
+Processing by BlogPostsController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mBlogPost Load (0.2ms)[0m  SELECT "blog_posts".* FROM "blog_posts" WHERE "blog_posts"."user_id" = $1  [["user_id", 1]]
+  Rendered blog_posts/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 66ms (Views: 64.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2015-04-09 12:01:22 -0500
+Processing by LandingsController#show as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered landings/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 59ms (Views: 57.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2015-04-09 12:01:22 -0500
+Processing by LandingsController#show as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered landings/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 21ms (Views: 19.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-04-09 12:01:22 -0500
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for ::1 at 2015-04-09 12:01:22 -0500
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-04-09 12:01:22 -0500
+
+
+Started GET "/blog_posts" for ::1 at 2015-04-09 12:01:24 -0500
+Processing by BlogPostsController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mBlogPost Load (0.3ms)[0m  SELECT "blog_posts".* FROM "blog_posts" WHERE "blog_posts"."user_id" = $1  [["user_id", 1]]
+  Rendered blog_posts/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 73ms (Views: 71.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2015-04-09 12:01:26 -0500
+Processing by LandingsController#show as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered landings/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 23ms (Views: 20.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2015-04-09 12:01:43 -0500
+Processing by LandingsController#show as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered landings/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 59ms (Views: 57.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-04-09 12:01:43 -0500
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-04-09 12:01:43 -0500
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for ::1 at 2015-04-09 12:01:43 -0500
+
+
+Started GET "/blog_posts" for ::1 at 2015-04-09 12:01:45 -0500
+Processing by BlogPostsController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mBlogPost Load (0.3ms)[0m  SELECT "blog_posts".* FROM "blog_posts" WHERE "blog_posts"."user_id" = $1  [["user_id", 1]]
+  Rendered blog_posts/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 24ms (Views: 22.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2015-04-09 12:01:48 -0500
+Processing by LandingsController#show as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered landings/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 20ms (Views: 18.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2015-04-09 12:03:05 -0500
+Processing by LandingsController#show as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered landings/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 58ms (Views: 56.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-04-09 12:03:05 -0500
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-04-09 12:03:05 -0500
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for ::1 at 2015-04-09 12:03:05 -0500
+
+
+Started GET "/blog_posts" for ::1 at 2015-04-09 12:03:08 -0500
+Processing by BlogPostsController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mBlogPost Load (0.3ms)[0m  SELECT "blog_posts".* FROM "blog_posts" WHERE "blog_posts"."user_id" = $1  [["user_id", 1]]
+  Rendered blog_posts/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 23ms (Views: 21.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2015-04-09 12:04:29 -0500
+Processing by LandingsController#show as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered landings/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 61ms (Views: 59.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2015-04-09 12:04:30 -0500
+Processing by LandingsController#show as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered landings/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 22ms (Views: 20.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-04-09 12:04:30 -0500
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for ::1 at 2015-04-09 12:04:30 -0500
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-04-09 12:04:30 -0500
+
+
+Started GET "/" for ::1 at 2015-04-09 12:04:46 -0500
+Processing by LandingsController#show as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered landings/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 22ms (Views: 20.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-04-09 12:04:46 -0500
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for ::1 at 2015-04-09 12:04:46 -0500
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-04-09 12:04:46 -0500
+
+
+Started GET "/" for ::1 at 2015-04-09 12:05:20 -0500
+Processing by LandingsController#show as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered landings/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 22ms (Views: 19.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-04-09 12:05:20 -0500
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for ::1 at 2015-04-09 12:05:20 -0500
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-04-09 12:05:20 -0500
+
+
+Started GET "/" for ::1 at 2015-04-09 12:05:27 -0500
+Processing by LandingsController#show as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered landings/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 21ms (Views: 18.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-04-09 12:05:27 -0500
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-04-09 12:05:27 -0500
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for ::1 at 2015-04-09 12:05:27 -0500
+
+
+Started GET "/" for ::1 at 2015-04-09 12:05:47 -0500
+Processing by LandingsController#show as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered landings/show.html.erb within layouts/application (39.0ms)
+Completed 200 OK in 60ms (Views: 57.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-04-09 12:05:47 -0500
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-04-09 12:05:47 -0500
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for ::1 at 2015-04-09 12:05:47 -0500
+
+
+Started GET "/" for ::1 at 2015-04-09 12:05:55 -0500
+Processing by LandingsController#show as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered landings/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 22ms (Views: 20.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-04-09 12:05:55 -0500
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for ::1 at 2015-04-09 12:05:55 -0500
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-04-09 12:05:55 -0500
+
+
+Started GET "/" for ::1 at 2015-04-09 12:06:11 -0500
+Processing by LandingsController#show as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered landings/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 62ms (Views: 60.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-04-09 12:06:11 -0500
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-04-09 12:06:11 -0500
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for ::1 at 2015-04-09 12:06:11 -0500
+
+
+Started GET "/" for ::1 at 2015-04-09 12:07:31 -0500
+Processing by LandingsController#show as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered landings/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 21ms (Views: 19.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-04-09 12:07:31 -0500
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-04-09 12:07:31 -0500
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for ::1 at 2015-04-09 12:07:31 -0500
+
+
+Started GET "/" for ::1 at 2015-04-09 12:07:49 -0500
+Processing by LandingsController#show as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered landings/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 68ms (Views: 66.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-04-09 12:07:49 -0500
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for ::1 at 2015-04-09 12:07:49 -0500
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-04-09 12:07:49 -0500
+
+
+Started GET "/" for ::1 at 2015-04-09 12:08:26 -0500
+Processing by LandingsController#show as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered landings/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 21ms (Views: 19.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-04-09 12:08:26 -0500
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for ::1 at 2015-04-09 12:08:26 -0500
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-04-09 12:08:26 -0500
+
+
+Started GET "/" for ::1 at 2015-04-09 12:08:33 -0500
+Processing by LandingsController#show as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered landings/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 64ms (Views: 62.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-04-09 12:08:33 -0500
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for ::1 at 2015-04-09 12:08:33 -0500
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-04-09 12:08:33 -0500
+
+
+Started GET "/" for ::1 at 2015-04-09 12:08:52 -0500
+Processing by LandingsController#show as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered landings/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 21ms (Views: 19.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-04-09 12:08:52 -0500
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for ::1 at 2015-04-09 12:08:52 -0500
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-04-09 12:08:52 -0500
+
+
+Started GET "/" for ::1 at 2015-04-09 12:09:20 -0500
+Processing by LandingsController#show as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered landings/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 25ms (Views: 22.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-04-09 12:09:20 -0500
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-04-09 12:09:20 -0500
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for ::1 at 2015-04-09 12:09:20 -0500
+
+
+Started GET "/" for ::1 at 2015-04-09 12:09:29 -0500
+Processing by LandingsController#show as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered landings/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 22ms (Views: 19.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for ::1 at 2015-04-09 12:09:29 -0500
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-04-09 12:09:29 -0500
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-04-09 12:09:29 -0500
+
+
+Started GET "/" for ::1 at 2015-04-09 12:09:37 -0500
+Processing by LandingsController#show as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered landings/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 23ms (Views: 20.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-04-09 12:09:37 -0500
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for ::1 at 2015-04-09 12:09:37 -0500
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-04-09 12:09:37 -0500
+
+
+Started GET "/" for ::1 at 2015-04-09 12:09:41 -0500
+Processing by LandingsController#show as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered landings/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 59ms (Views: 57.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-04-09 12:09:41 -0500
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-04-09 12:09:41 -0500
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for ::1 at 2015-04-09 12:09:41 -0500
+
+
+Started GET "/" for ::1 at 2015-04-09 12:10:51 -0500
+Processing by LandingsController#show as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered landings/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 22ms (Views: 19.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-04-09 12:10:51 -0500
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-04-09 12:10:51 -0500
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for ::1 at 2015-04-09 12:10:51 -0500
+
+
+Started GET "/" for ::1 at 2015-04-09 12:13:10 -0500
+Processing by LandingsController#show as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered landings/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 60ms (Views: 57.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-04-09 12:13:10 -0500
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for ::1 at 2015-04-09 12:13:10 -0500
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-04-09 12:13:10 -0500
+
+
+Started GET "/" for ::1 at 2015-04-09 12:13:45 -0500
+Processing by LandingsController#show as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered landings/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 21ms (Views: 19.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-04-09 12:13:45 -0500
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-04-09 12:13:45 -0500
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for ::1 at 2015-04-09 12:13:45 -0500
+
+
+Started GET "/" for ::1 at 2015-04-09 12:16:26 -0500
+Processing by LandingsController#show as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered landings/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 72ms (Views: 70.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-04-09 12:16:27 -0500
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-04-09 12:16:27 -0500
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for ::1 at 2015-04-09 12:16:27 -0500
+
+
+Started GET "/blog_posts" for ::1 at 2015-04-09 12:16:28 -0500
+Processing by BlogPostsController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mBlogPost Load (0.2ms)[0m  [1mSELECT "blog_posts".* FROM "blog_posts" WHERE "blog_posts"."user_id" = $1[0m  [["user_id", 1]]
+  Rendered blog_posts/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 62ms (Views: 60.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2015-04-09 12:16:29 -0500
+Processing by LandingsController#show as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered landings/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 21ms (Views: 19.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2015-04-09 12:23:19 -0500
+Processing by LandingsController#show as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered landings/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 68ms (Views: 65.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-04-09 12:23:19 -0500
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-04-09 12:23:19 -0500
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for ::1 at 2015-04-09 12:23:19 -0500
+
+
+Started GET "/" for ::1 at 2015-04-09 12:25:01 -0500
+Processing by LandingsController#show as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered landings/show.html.erb within layouts/application (36.9ms)
+Completed 200 OK in 58ms (Views: 55.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-04-09 12:25:01 -0500
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for ::1 at 2015-04-09 12:25:01 -0500
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-04-09 12:25:01 -0500
+
+
+Started GET "/" for ::1 at 2015-04-09 12:25:34 -0500
+Processing by LandingsController#show as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered landings/show.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 34ms (Views: 28.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-04-09 12:25:34 -0500
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-04-09 12:25:34 -0500
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for ::1 at 2015-04-09 12:25:34 -0500
+
+
+Started GET "/" for ::1 at 2015-04-09 12:27:38 -0500
+Processing by LandingsController#show as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered landings/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 69ms (Views: 66.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-04-09 12:27:38 -0500
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-04-09 12:27:38 -0500
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for ::1 at 2015-04-09 12:27:38 -0500
+
+
+Started GET "/" for ::1 at 2015-04-09 12:28:04 -0500
+Processing by LandingsController#show as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered landings/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 27ms (Views: 24.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-04-09 12:28:04 -0500
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for ::1 at 2015-04-09 12:28:04 -0500
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-04-09 12:28:04 -0500
+
+
+Started GET "/" for ::1 at 2015-04-09 12:29:23 -0500
+Processing by LandingsController#show as HTML
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered landings/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 72ms (Views: 67.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for ::1 at 2015-04-09 12:29:23 -0500
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-04-09 12:29:23 -0500
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-04-09 12:29:23 -0500
+
+
+Started GET "/" for ::1 at 2015-04-09 12:30:20 -0500
+Processing by LandingsController#show as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered landings/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 26ms (Views: 23.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-04-09 12:30:20 -0500
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-04-09 12:30:20 -0500
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for ::1 at 2015-04-09 12:30:20 -0500
+
+
+Started GET "/" for ::1 at 2015-04-09 12:31:09 -0500
+Processing by LandingsController#show as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered landings/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 82ms (Views: 79.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-04-09 12:31:09 -0500
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-04-09 12:31:09 -0500
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for ::1 at 2015-04-09 12:31:09 -0500
+
+
+Started GET "/" for ::1 at 2015-04-09 12:31:15 -0500
+Processing by LandingsController#show as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered landings/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 24ms (Views: 21.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-04-09 12:31:15 -0500
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for ::1 at 2015-04-09 12:31:15 -0500
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-04-09 12:31:15 -0500
+
+
+Started GET "/" for ::1 at 2015-04-09 12:31:52 -0500
+Processing by LandingsController#show as HTML
+  [1m[35mUser Load (0.6ms)[0m  SELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered landings/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 79ms (Views: 75.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-04-09 12:31:52 -0500
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-04-09 12:31:52 -0500
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for ::1 at 2015-04-09 12:31:52 -0500
+
+
+Started GET "/projects" for ::1 at 2015-04-09 12:32:19 -0500
+Processing by ProjectsController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mProject Load (0.2ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."user_id" = $1  [["user_id", 1]]
+  Rendered projects/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 28ms (Views: 25.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2015-04-09 12:32:21 -0500
+Processing by LandingsController#show as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered landings/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 21ms (Views: 19.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/blog_posts" for ::1 at 2015-04-09 12:32:23 -0500
+Processing by BlogPostsController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mBlogPost Load (0.2ms)[0m  [1mSELECT "blog_posts".* FROM "blog_posts" WHERE "blog_posts"."user_id" = $1[0m  [["user_id", 1]]
+  Rendered blog_posts/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 61ms (Views: 59.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2015-04-09 12:32:24 -0500
+Processing by LandingsController#show as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered landings/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 24ms (Views: 21.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/1" for ::1 at 2015-04-09 12:32:26 -0500
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered users/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 63ms (Views: 61.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2015-04-09 12:32:27 -0500
+Processing by LandingsController#show as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered landings/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 21ms (Views: 19.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2015-04-09 12:32:58 -0500
+Processing by LandingsController#show as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered landings/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 22ms (Views: 20.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-04-09 12:32:58 -0500
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-04-09 12:32:58 -0500
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for ::1 at 2015-04-09 12:32:58 -0500

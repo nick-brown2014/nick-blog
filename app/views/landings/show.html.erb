@@ -252,6 +252,29 @@ h6 {
 
 </style>
 
+<script type="text/javascript">
+    $(document).ready(function(){
+        function moveLeft(object, speed) {
+            $(object).animate({
+                "left": "-=50px"
+            }, speed);
+        };
+        function moveRight(object, speed) {
+            $(object).animate({
+                "left": "+=50px"
+            }, speed);
+        };
+        for (i = 0; i < 1000; i++) {
+            moveLeft("#blog", 10000);
+            moveRight("#blog", 10000);
+            moveRight("#projects", 15000);
+            moveLeft("#projects", 15000);
+            moveRight("#about", 5000);
+            moveLeft("#about", 5000);
+        };
+    });
+</script>
+
 <body>
     <nav>
         <div id="blog"><a href="/blog_posts"><img src="https://github.com/nick-brown2014/nick-brown2014.github.io/blob/master/blog-posts/imgs/blog.png?raw=true"></a></div>
