@@ -279,16 +279,16 @@ h6 {
         };
         $("#twitter").hover(function(){
             shake($(this));
-        })
+        });
         $("#linkedin").hover(function(){
             shake($(this));
-        })
+        });
         $("#github").hover(function(){
             shake($(this));
-        })
+        });
         $("#email").hover(function(){
             shake($(this));
-        })
+        });
     });
 </script>
 
@@ -312,7 +312,7 @@ h6 {
     <footer>
         <div id="foot-about">
             <h1><%= link_to("About Me", user_path(@user.id)) %></h1>
-            <p>I am a Chicago based developer who loves doodling and will incorporate that into web design no matter how many people tell him it's unprofessional.</p>
+            <p>I am a Chicago based developer who loves doodling and will incorporate that into web design no matter how many people say that it's unprofessional.</p>
         </div>
         <div id="foot-blog">
             <h1><%= link_to("Blog Posts", blog_posts_path) %></h1>
