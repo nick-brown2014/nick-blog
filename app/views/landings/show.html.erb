@@ -28,20 +28,30 @@ nav a {
 #about {
     position: absolute;
     top: 7%;
-    left: 18%;
+    left: 20%;
     font-size: 1em;
+}
+
+#about img {
+    height: 70px;
+    width: auto;
 }
 
 #blog {
     position: absolute;
     top: 20%;
-    left: 56%;
+    left: 50%;
     font-size: 1em;
+}
+
+#blog img {
+    height: 70px;
+    width: auto;
 }
 
 #projects {
     position: absolute;
-    top: 30%;
+    top: 32%;
     left: 16%;
 }
 
@@ -244,9 +254,9 @@ h6 {
 
 <body>
     <nav>
-        <div id="blog"><%= link_to("Blog", blog_posts_path) %></div>
+        <div id="blog"><img src="https://github.com/nick-brown2014/nick-brown2014.github.io/blob/master/blog-posts/imgs/blog.png?raw=true"></div>
         <div id="projects"><img src="https://github.com/nick-brown2014/nick-brown2014.github.io/blob/master/blog-posts/imgs/projects.png?raw=true"></div>
-        <div id="about"><%= link_to("About Me", user_path(@user.id)) %></div>
+        <div id="about"><img src="https://github.com/nick-brown2014/nick-brown2014.github.io/blob/master/blog-posts/imgs/about-me.png?raw=true"></div>
     </nav>
     <a href ="https://twitter.com/SunnyBrownCC" target="_blank"><img id="twitter" src="https://raw.githubusercontent.com/nick-brown2014/nick-brown2014.github.io/master/blog-posts/imgs/twitter-clear.png"/></a>
     <a href ="https://www.linkedin.com/pub/nick-brown/88/178/b62/" target="_blank"><img id="linkedin" src="https://raw.githubusercontent.com/nick-brown2014/nick-brown2014.github.io/master/blog-posts/imgs/linkedin_png.png" /></a>
@@ -262,12 +272,10 @@ h6 {
             <h1><%= link_to("About Me", user_path(@user.id)) %></h1>
             <p>I am a Chicago based developer who loves doodling and will incorporate that into web design no matter how many people tell him it's unprofessional.</p>
         </div>
-<!--         <div class="bot_line" id="about-blog-line"></div> -->
         <div id="foot-blog">
             <h1><%= link_to("Blog Posts", blog_posts_path) %></h1>
             <p>A bunch of blog posts that I wrote about programming while I didn't know anything about it!  At least they're kind of entertaining...</p>
         </div>
-<!--         <div class="bot_line" id="blog-projects-line"></div> -->
         <div id="foot-projects">
             <h1><%= link_to("Projects", projects_path) %></h1>
             <p>These are some of the projects that I have worked since I started programming.  Check back on this section often as I intend to keep it growing!</p>
