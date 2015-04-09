@@ -272,6 +272,23 @@ h6 {
             moveRight("#about", 5000);
             moveLeft("#about", 5000);
         };
+        function shake(object) {
+            $(object).animate({"left": "-=2px"},100);
+            $(object).animate({"left": "+=4px"},100);
+            $(object).animate({"left": "-=2px"},100);
+        };
+        $("#twitter").hover(function(){
+            shake($(this));
+        })
+        $("#linkedin").hover(function(){
+            shake($(this));
+        })
+        $("#github").hover(function(){
+            shake($(this));
+        })
+        $("#email").hover(function(){
+            shake($(this));
+        })
     });
 </script>
 
@@ -281,7 +298,9 @@ h6 {
         <div id="projects"><a href="/projects"><img src="https://github.com/nick-brown2014/nick-brown2014.github.io/blob/master/blog-posts/imgs/projects.png?raw=true"></a></div>
         <div id="about"><a href="/users/1"><img src="https://github.com/nick-brown2014/nick-brown2014.github.io/blob/master/blog-posts/imgs/about-me.png?raw=true"></a></div>
     </nav>
-    <a href ="https://twitter.com/SunnyBrownCC" target="_blank"><img id="twitter" src="https://raw.githubusercontent.com/nick-brown2014/nick-brown2014.github.io/master/blog-posts/imgs/twitter-clear.png"/></a>
+    <div>
+        <a href ="https://twitter.com/SunnyBrownCC" target="_blank"><img id="twitter" src="https://raw.githubusercontent.com/nick-brown2014/nick-brown2014.github.io/master/blog-posts/imgs/twitter-clear.png"/></a>
+    </div>
     <a href ="https://www.linkedin.com/pub/nick-brown/88/178/b62/" target="_blank"><img id="linkedin" src="https://raw.githubusercontent.com/nick-brown2014/nick-brown2014.github.io/master/blog-posts/imgs/linkedin_png.png" /></a>
     <a href ="https://github.com/nick-brown2014" target="_blank"><img id="github" src="https://raw.githubusercontent.com/nick-brown2014/nick-brown2014.github.io/master/blog-posts/imgs/github-clear.png" /></a>
     <a href="mailto:nick.brown2014@gmail.com?Subject=Hello" target="_top"><img id="email" src="https://raw.githubusercontent.com/nick-brown2014/nick-brown2014.github.io/master/blog-posts/imgs/email_logo.gif" /></a>
