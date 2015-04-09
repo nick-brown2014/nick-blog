@@ -7819,3 +7819,212 @@ Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 
 
 
 Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for ::1 at 2015-04-08 17:32:00 -0500
+
+
+Started GET "/blog_posts" for ::1 at 2015-04-09 09:36:14 -0500
+Processing by BlogPostsController#index as HTML
+  [1m[35mUser Load (32.2ms)[0m  SELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mBlogPost Load (5.9ms)[0m  [1mSELECT "blog_posts".* FROM "blog_posts" WHERE "blog_posts"."user_id" = $1[0m  [["user_id", 1]]
+  Rendered blog_posts/index.html.erb within layouts/application (14.3ms)
+Completed 200 OK in 108ms (Views: 51.3ms | ActiveRecord: 38.2ms)
+
+
+Started GET "/" for ::1 at 2015-04-09 09:36:37 -0500
+Processing by LandingsController#show as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered landings/show.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 140ms (Views: 137.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/blog-posts" for ::1 at 2015-04-09 09:36:39 -0500
+
+ActionController::RoutingError (No route matches [GET] "/blog-posts"):
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /Users/nick-brown2014/.rbenv/versions/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/nick-brown2014/.rbenv/versions/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/nick-brown2014/.rbenv/versions/2.0.0-p481/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/nick-brown2014/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /Users/nick-brown2014/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_route.html.erb (0.8ms)
+  Rendered /Users/nick-brown2014/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_table.html.erb (8.7ms)
+  Rendered /Users/nick-brown2014/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/nick-brown2014/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.9ms)
+  Rendered /Users/nick-brown2014/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (46.9ms)
+
+
+Started GET "/blog-posts" for ::1 at 2015-04-09 09:36:39 -0500
+
+ActionController::RoutingError (No route matches [GET] "/blog-posts"):
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /Users/nick-brown2014/.rbenv/versions/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/nick-brown2014/.rbenv/versions/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/nick-brown2014/.rbenv/versions/2.0.0-p481/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/nick-brown2014/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered /Users/nick-brown2014/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_route.html.erb (0.5ms)
+  Rendered /Users/nick-brown2014/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_table.html.erb (0.8ms)
+  Rendered /Users/nick-brown2014/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/nick-brown2014/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.6ms)
+  Rendered /Users/nick-brown2014/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (18.0ms)
+
+
+Started GET "/blog_posts" for ::1 at 2015-04-09 09:36:46 -0500
+Processing by BlogPostsController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mBlogPost Load (0.3ms)[0m  SELECT "blog_posts".* FROM "blog_posts" WHERE "blog_posts"."user_id" = $1  [["user_id", 1]]
+  Rendered blog_posts/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 22ms (Views: 19.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for ::1 at 2015-04-09 09:36:59 -0500
+Processing by LandingsController#show as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered landings/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 64ms (Views: 62.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/blog_posts" for ::1 at 2015-04-09 09:37:01 -0500
+Processing by BlogPostsController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mBlogPost Load (0.3ms)[0m  [1mSELECT "blog_posts".* FROM "blog_posts" WHERE "blog_posts"."user_id" = $1[0m  [["user_id", 1]]
+  Rendered blog_posts/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 25ms (Views: 22.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2015-04-09 09:37:02 -0500
+Processing by LandingsController#show as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered landings/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 21ms (Views: 19.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/1" for ::1 at 2015-04-09 09:37:05 -0500
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered users/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 62ms (Views: 60.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2015-04-09 09:37:26 -0500
+Processing by LandingsController#show as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered landings/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 20ms (Views: 18.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/1" for ::1 at 2015-04-09 09:37:28 -0500
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered users/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 21ms (Views: 19.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2015-04-09 09:37:29 -0500
+Processing by LandingsController#show as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered landings/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 21ms (Views: 18.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/projects" for ::1 at 2015-04-09 09:37:31 -0500
+Processing by ProjectsController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mProject Load (0.2ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."user_id" = $1  [["user_id", 1]]
+  Rendered projects/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 25ms (Views: 23.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2015-04-09 09:37:51 -0500
+Processing by LandingsController#show as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered landings/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 60ms (Views: 58.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/projects" for ::1 at 2015-04-09 09:37:55 -0500
+Processing by ProjectsController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mProject Load (0.1ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."user_id" = $1[0m  [["user_id", 1]]
+  Rendered projects/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 21ms (Views: 19.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2015-04-09 09:37:56 -0500
+Processing by LandingsController#show as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered landings/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 20ms (Views: 18.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/1" for ::1 at 2015-04-09 09:37:57 -0500
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered users/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 59ms (Views: 57.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2015-04-09 09:37:59 -0500
+Processing by LandingsController#show as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered landings/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 23ms (Views: 21.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/blog_posts" for ::1 at 2015-04-09 09:37:59 -0500
+Processing by BlogPostsController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mBlogPost Load (0.3ms)[0m  SELECT "blog_posts".* FROM "blog_posts" WHERE "blog_posts"."user_id" = $1  [["user_id", 1]]
+  Rendered blog_posts/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 59ms (Views: 57.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2015-04-09 09:38:01 -0500
+Processing by LandingsController#show as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered landings/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 22ms (Views: 20.6ms | ActiveRecord: 0.2ms)
