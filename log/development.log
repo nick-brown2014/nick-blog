@@ -11271,3 +11271,709 @@ Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 
 
 
 Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for ::1 at 2015-04-10 17:53:39 -0500
+
+
+Started GET "/" for ::1 at 2015-04-14 14:25:26 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (33.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by LandingsController#show as HTML
+  [1m[35mUser Load (26.8ms)[0m  SELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered landings/show.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 227ms (Views: 126.5ms | ActiveRecord: 61.5ms)
+
+
+Started GET "/" for ::1 at 2015-04-14 14:25:26 -0500
+Processing by LandingsController#show as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered landings/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 21ms (Views: 18.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-04-14 14:25:27 -0500
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-04-14 14:25:27 -0500
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for ::1 at 2015-04-14 14:25:27 -0500
+
+
+Started GET "/" for ::1 at 2015-04-14 14:29:16 -0500
+Processing by LandingsController#show as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered landings/show.html.erb within layouts/application (0.2ms)
+Completed 500 Internal Server Error in 59ms
+
+ActionView::Template::Error (File to import not found or unreadable: bootstrap-sprockets.
+Load paths:
+  /Users/nick-brown2014/Desktop/nick-blog/app/assets/images
+  /Users/nick-brown2014/Desktop/nick-blog/app/assets/javascripts
+  /Users/nick-brown2014/Desktop/nick-blog/app/assets/stylesheets
+  /Users/nick-brown2014/Desktop/nick-blog/vendor/assets/javascripts
+  /Users/nick-brown2014/Desktop/nick-blog/vendor/assets/stylesheets
+  /Users/nick-brown2014/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/assets/javascripts
+  /Users/nick-brown2014/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/turbolinks-2.5.3/lib/assets/javascripts
+  /Users/nick-brown2014/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/jquery-rails-4.0.3/vendor/assets/javascripts
+  /Users/nick-brown2014/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/coffee-rails-4.1.0/lib/assets/javascripts
+  (in /Users/nick-brown2014/Desktop/nick-blog/app/assets/stylesheets/application.scss:17)):
+    2: <html>
+    3: <head>
+    4:   <title>NickBlog</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/application.scss:17
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___297905029642021267_70346803894340'
+
+
+  Rendered /Users/nick-brown2014/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (6.6ms)
+  Rendered /Users/nick-brown2014/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /Users/nick-brown2014/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/nick-brown2014/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.6ms)
+  Rendered /Users/nick-brown2014/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/template_error.html.erb within rescues/layout (28.1ms)
+
+
+Started GET "/" for ::1 at 2015-04-14 14:30:31 -0500
+Processing by LandingsController#show as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered landings/show.html.erb within layouts/application (0.2ms)
+Completed 500 Internal Server Error in 57ms
+
+ActionView::Template::Error (File to import not found or unreadable: bootstrap-sprockets.
+Load paths:
+  /Users/nick-brown2014/Desktop/nick-blog/app/assets/images
+  /Users/nick-brown2014/Desktop/nick-blog/app/assets/javascripts
+  /Users/nick-brown2014/Desktop/nick-blog/app/assets/stylesheets
+  /Users/nick-brown2014/Desktop/nick-blog/vendor/assets/javascripts
+  /Users/nick-brown2014/Desktop/nick-blog/vendor/assets/stylesheets
+  /Users/nick-brown2014/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/assets/javascripts
+  /Users/nick-brown2014/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/turbolinks-2.5.3/lib/assets/javascripts
+  /Users/nick-brown2014/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/jquery-rails-4.0.3/vendor/assets/javascripts
+  /Users/nick-brown2014/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/coffee-rails-4.1.0/lib/assets/javascripts
+  (in /Users/nick-brown2014/Desktop/nick-blog/app/assets/stylesheets/application.css.scss:17)):
+    2: <html>
+    3: <head>
+    4:   <title>NickBlog</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/application.css.scss:17
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___297905029642021267_70346803894340'
+
+
+  Rendered /Users/nick-brown2014/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (6.0ms)
+  Rendered /Users/nick-brown2014/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /Users/nick-brown2014/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/nick-brown2014/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.6ms)
+  Rendered /Users/nick-brown2014/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/template_error.html.erb within rescues/layout (20.9ms)
+
+
+Started GET "/" for ::1 at 2015-04-14 14:33:38 -0500
+Processing by LandingsController#show as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered landings/show.html.erb within layouts/application (0.3ms)
+Completed 500 Internal Server Error in 16ms
+
+ActionView::Template::Error (File to import not found or unreadable: bootstrap-sprockets.
+Load paths:
+  /Users/nick-brown2014/Desktop/nick-blog/app/assets/images
+  /Users/nick-brown2014/Desktop/nick-blog/app/assets/javascripts
+  /Users/nick-brown2014/Desktop/nick-blog/app/assets/stylesheets
+  /Users/nick-brown2014/Desktop/nick-blog/vendor/assets/javascripts
+  /Users/nick-brown2014/Desktop/nick-blog/vendor/assets/stylesheets
+  /Users/nick-brown2014/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/assets/javascripts
+  /Users/nick-brown2014/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/turbolinks-2.5.3/lib/assets/javascripts
+  /Users/nick-brown2014/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/jquery-rails-4.0.3/vendor/assets/javascripts
+  /Users/nick-brown2014/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/coffee-rails-4.1.0/lib/assets/javascripts
+  (in /Users/nick-brown2014/Desktop/nick-blog/app/assets/stylesheets/application.css.scss:15)):
+    2: <html>
+    3: <head>
+    4:   <title>NickBlog</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/application.css.scss:15
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___297905029642021267_70346803894340'
+
+
+  Rendered /Users/nick-brown2014/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (6.0ms)
+  Rendered /Users/nick-brown2014/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /Users/nick-brown2014/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/nick-brown2014/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.6ms)
+  Rendered /Users/nick-brown2014/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/template_error.html.erb within rescues/layout (20.3ms)
+
+
+Started GET "/" for ::1 at 2015-04-14 14:33:42 -0500
+Processing by LandingsController#show as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered landings/show.html.erb within layouts/application (0.3ms)
+Completed 500 Internal Server Error in 12ms
+
+ActionView::Template::Error (File to import not found or unreadable: bootstrap-sprockets.
+Load paths:
+  /Users/nick-brown2014/Desktop/nick-blog/app/assets/images
+  /Users/nick-brown2014/Desktop/nick-blog/app/assets/javascripts
+  /Users/nick-brown2014/Desktop/nick-blog/app/assets/stylesheets
+  /Users/nick-brown2014/Desktop/nick-blog/vendor/assets/javascripts
+  /Users/nick-brown2014/Desktop/nick-blog/vendor/assets/stylesheets
+  /Users/nick-brown2014/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/assets/javascripts
+  /Users/nick-brown2014/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/turbolinks-2.5.3/lib/assets/javascripts
+  /Users/nick-brown2014/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/jquery-rails-4.0.3/vendor/assets/javascripts
+  /Users/nick-brown2014/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/coffee-rails-4.1.0/lib/assets/javascripts
+  (in /Users/nick-brown2014/Desktop/nick-blog/app/assets/stylesheets/application.css.scss:15)):
+    2: <html>
+    3: <head>
+    4:   <title>NickBlog</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/application.css.scss:15
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___297905029642021267_70346803894340'
+
+
+  Rendered /Users/nick-brown2014/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (6.4ms)
+  Rendered /Users/nick-brown2014/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /Users/nick-brown2014/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/nick-brown2014/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.6ms)
+  Rendered /Users/nick-brown2014/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/template_error.html.erb within rescues/layout (21.8ms)
+
+
+Started GET "/" for ::1 at 2015-04-14 14:35:49 -0500
+Processing by LandingsController#show as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered landings/show.html.erb within layouts/application (0.3ms)
+Completed 500 Internal Server Error in 12ms
+
+ActionView::Template::Error (File to import not found or unreadable: bootstrap-sprockets.
+Load paths:
+  /Users/nick-brown2014/Desktop/nick-blog/app/assets/images
+  /Users/nick-brown2014/Desktop/nick-blog/app/assets/javascripts
+  /Users/nick-brown2014/Desktop/nick-blog/app/assets/stylesheets
+  /Users/nick-brown2014/Desktop/nick-blog/vendor/assets/javascripts
+  /Users/nick-brown2014/Desktop/nick-blog/vendor/assets/stylesheets
+  /Users/nick-brown2014/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/assets/javascripts
+  /Users/nick-brown2014/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/turbolinks-2.5.3/lib/assets/javascripts
+  /Users/nick-brown2014/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/jquery-rails-4.0.3/vendor/assets/javascripts
+  /Users/nick-brown2014/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/coffee-rails-4.1.0/lib/assets/javascripts
+  (in /Users/nick-brown2014/Desktop/nick-blog/app/assets/stylesheets/application.css.scss:15)):
+    2: <html>
+    3: <head>
+    4:   <title>NickBlog</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/application.css.scss:15
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___297905029642021267_70346803894340'
+
+
+  Rendered /Users/nick-brown2014/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (5.8ms)
+  Rendered /Users/nick-brown2014/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /Users/nick-brown2014/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/nick-brown2014/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.6ms)
+  Rendered /Users/nick-brown2014/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/template_error.html.erb within rescues/layout (20.6ms)
+
+
+Started GET "/" for ::1 at 2015-04-14 14:36:46 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by LandingsController#show as HTML
+  [1m[35mUser Load (0.6ms)[0m  SELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered landings/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 2985ms (Views: 2953.3ms | ActiveRecord: 3.9ms)
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-04-14 14:36:49 -0500
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-04-14 14:36:49 -0500
+
+
+Started GET "/assets/bootstrap/affix-9291e82dbf9e5b081ccde6fb9e73d2a5.js?body=1" for ::1 at 2015-04-14 14:36:49 -0500
+
+
+Started GET "/assets/bootstrap/alert-8742a23be47b05fd9406ee1af01ba728.js?body=1" for ::1 at 2015-04-14 14:36:49 -0500
+
+
+Started GET "/assets/bootstrap/button-f2a77a4a52c432e89d9bed56996796c4.js?body=1" for ::1 at 2015-04-14 14:36:49 -0500
+
+
+Started GET "/assets/bootstrap/carousel-ee431c0c85f7f0c2b664413a55b6a0c9.js?body=1" for ::1 at 2015-04-14 14:36:49 -0500
+
+
+Started GET "/assets/bootstrap/collapse-6647808800ef18c519a07d4522a671ae.js?body=1" for ::1 at 2015-04-14 14:36:49 -0500
+
+
+Started GET "/assets/bootstrap/dropdown-31b9e8fcac840fbbf83cf175035b9924.js?body=1" for ::1 at 2015-04-14 14:36:49 -0500
+
+
+Started GET "/assets/bootstrap/modal-0f8acbc4424b32fcf755478e0c2ed06a.js?body=1" for ::1 at 2015-04-14 14:36:49 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy-a5db3e8b0b0b120662421b77a377e239.js?body=1" for ::1 at 2015-04-14 14:36:49 -0500
+
+
+Started GET "/assets/bootstrap/tab-f61048b766bf9184013683e176db6a73.js?body=1" for ::1 at 2015-04-14 14:36:49 -0500
+
+
+Started GET "/assets/bootstrap/transition-238cfc9a464fcdeb9269f21d5b4dfd8f.js?body=1" for ::1 at 2015-04-14 14:36:49 -0500
+
+
+Started GET "/assets/bootstrap/tooltip-14e96fc5e98662559779c4cee8f36754.js?body=1" for ::1 at 2015-04-14 14:36:49 -0500
+
+
+Started GET "/assets/bootstrap/popover-4999d9a57c95f4eb27292a53c448c838.js?body=1" for ::1 at 2015-04-14 14:36:49 -0500
+
+
+Started GET "/assets/bootstrap-sprockets-ee91289943d3f5c985484dc647b331d8.js?body=1" for ::1 at 2015-04-14 14:36:49 -0500
+
+
+Started GET "/users/1" for ::1 at 2015-04-14 14:39:37 -0500
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered users/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 101ms (Views: 99.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2015-04-14 14:39:39 -0500
+Processing by LandingsController#show as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered landings/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 101ms (Views: 99.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2015-04-14 14:42:29 -0500
+Processing by LandingsController#show as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered landings/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 1626ms (Views: 1623.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-04-14 14:42:31 -0500
+
+
+Started GET "/assets/bootstrap/affix-9291e82dbf9e5b081ccde6fb9e73d2a5.js?body=1" for ::1 at 2015-04-14 14:42:31 -0500
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-04-14 14:42:31 -0500
+
+
+Started GET "/assets/bootstrap/alert-8742a23be47b05fd9406ee1af01ba728.js?body=1" for ::1 at 2015-04-14 14:42:31 -0500
+
+
+Started GET "/assets/bootstrap/carousel-ee431c0c85f7f0c2b664413a55b6a0c9.js?body=1" for ::1 at 2015-04-14 14:42:31 -0500
+
+
+Started GET "/assets/bootstrap/button-f2a77a4a52c432e89d9bed56996796c4.js?body=1" for ::1 at 2015-04-14 14:42:31 -0500
+
+
+Started GET "/assets/bootstrap/collapse-6647808800ef18c519a07d4522a671ae.js?body=1" for ::1 at 2015-04-14 14:42:31 -0500
+
+
+Started GET "/assets/bootstrap/dropdown-31b9e8fcac840fbbf83cf175035b9924.js?body=1" for ::1 at 2015-04-14 14:42:31 -0500
+
+
+Started GET "/assets/bootstrap/modal-0f8acbc4424b32fcf755478e0c2ed06a.js?body=1" for ::1 at 2015-04-14 14:42:31 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy-a5db3e8b0b0b120662421b77a377e239.js?body=1" for ::1 at 2015-04-14 14:42:31 -0500
+
+
+Started GET "/assets/bootstrap/tab-f61048b766bf9184013683e176db6a73.js?body=1" for ::1 at 2015-04-14 14:42:31 -0500
+
+
+Started GET "/assets/bootstrap/transition-238cfc9a464fcdeb9269f21d5b4dfd8f.js?body=1" for ::1 at 2015-04-14 14:42:31 -0500
+
+
+Started GET "/assets/bootstrap/tooltip-14e96fc5e98662559779c4cee8f36754.js?body=1" for ::1 at 2015-04-14 14:42:31 -0500
+
+
+Started GET "/assets/bootstrap/popover-4999d9a57c95f4eb27292a53c448c838.js?body=1" for ::1 at 2015-04-14 14:42:31 -0500
+
+
+Started GET "/assets/bootstrap-sprockets-ee91289943d3f5c985484dc647b331d8.js?body=1" for ::1 at 2015-04-14 14:42:31 -0500
+
+
+Started GET "/users/1" for ::1 at 2015-04-14 14:42:40 -0500
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered users/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 98ms (Views: 96.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/1" for ::1 at 2015-04-14 14:42:51 -0500
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered users/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 1546ms (Views: 1544.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/bootstrap/button-f2a77a4a52c432e89d9bed56996796c4.js?body=1" for ::1 at 2015-04-14 14:42:53 -0500
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-04-14 14:42:53 -0500
+
+
+Started GET "/assets/bootstrap/affix-9291e82dbf9e5b081ccde6fb9e73d2a5.js?body=1" for ::1 at 2015-04-14 14:42:53 -0500
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-04-14 14:42:53 -0500
+
+
+Started GET "/assets/bootstrap/carousel-ee431c0c85f7f0c2b664413a55b6a0c9.js?body=1" for ::1 at 2015-04-14 14:42:53 -0500
+
+
+Started GET "/assets/bootstrap/alert-8742a23be47b05fd9406ee1af01ba728.js?body=1" for ::1 at 2015-04-14 14:42:53 -0500
+
+
+Started GET "/assets/bootstrap/collapse-6647808800ef18c519a07d4522a671ae.js?body=1" for ::1 at 2015-04-14 14:42:53 -0500
+
+
+Started GET "/assets/bootstrap/dropdown-31b9e8fcac840fbbf83cf175035b9924.js?body=1" for ::1 at 2015-04-14 14:42:53 -0500
+
+
+Started GET "/assets/bootstrap/modal-0f8acbc4424b32fcf755478e0c2ed06a.js?body=1" for ::1 at 2015-04-14 14:42:53 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy-a5db3e8b0b0b120662421b77a377e239.js?body=1" for ::1 at 2015-04-14 14:42:53 -0500
+
+
+Started GET "/assets/bootstrap/tab-f61048b766bf9184013683e176db6a73.js?body=1" for ::1 at 2015-04-14 14:42:53 -0500
+
+
+Started GET "/assets/bootstrap/transition-238cfc9a464fcdeb9269f21d5b4dfd8f.js?body=1" for ::1 at 2015-04-14 14:42:53 -0500
+
+
+Started GET "/assets/bootstrap/tooltip-14e96fc5e98662559779c4cee8f36754.js?body=1" for ::1 at 2015-04-14 14:42:53 -0500
+
+
+Started GET "/assets/bootstrap/popover-4999d9a57c95f4eb27292a53c448c838.js?body=1" for ::1 at 2015-04-14 14:42:53 -0500
+
+
+Started GET "/assets/bootstrap-sprockets-ee91289943d3f5c985484dc647b331d8.js?body=1" for ::1 at 2015-04-14 14:42:53 -0500
+
+
+Started GET "/" for ::1 at 2015-04-14 14:42:59 -0500
+Processing by LandingsController#show as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered landings/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 99ms (Views: 97.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/blog_posts" for ::1 at 2015-04-14 14:43:01 -0500
+Processing by BlogPostsController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mBlogPost Load (18.8ms)[0m  SELECT "blog_posts".* FROM "blog_posts" WHERE "blog_posts"."user_id" = $1  [["user_id", 1]]
+  Rendered blog_posts/index.html.erb within layouts/application (31.9ms)
+Completed 200 OK in 137ms (Views: 115.1ms | ActiveRecord: 19.8ms)
+
+
+Started GET "/users/1" for ::1 at 2015-04-14 14:43:02 -0500
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered users/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 56ms (Views: 54.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/projects" for ::1 at 2015-04-14 14:43:04 -0500
+Processing by ProjectsController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mProject Load (13.2ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."user_id" = $1[0m  [["user_id", 1]]
+  Rendered projects/index.html.erb within layouts/application (18.8ms)
+Completed 200 OK in 119ms (Views: 103.3ms | ActiveRecord: 13.8ms)
+
+
+Started GET "/blog_posts" for ::1 at 2015-04-14 14:43:05 -0500
+Processing by BlogPostsController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mBlogPost Load (0.3ms)[0m  [1mSELECT "blog_posts".* FROM "blog_posts" WHERE "blog_posts"."user_id" = $1[0m  [["user_id", 1]]
+  Rendered blog_posts/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 102ms (Views: 100.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2015-04-14 14:43:06 -0500
+Processing by LandingsController#show as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered landings/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 103ms (Views: 101.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2015-04-14 14:44:32 -0500
+Processing by LandingsController#show as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered landings/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 1465ms (Views: 1463.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/bootstrap/button-f2a77a4a52c432e89d9bed56996796c4.js?body=1" for ::1 at 2015-04-14 14:44:34 -0500
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-04-14 14:44:34 -0500
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-04-14 14:44:34 -0500
+
+
+Started GET "/assets/bootstrap/affix-9291e82dbf9e5b081ccde6fb9e73d2a5.js?body=1" for ::1 at 2015-04-14 14:44:34 -0500
+
+
+Started GET "/assets/bootstrap/alert-8742a23be47b05fd9406ee1af01ba728.js?body=1" for ::1 at 2015-04-14 14:44:34 -0500
+
+
+Started GET "/assets/bootstrap/carousel-ee431c0c85f7f0c2b664413a55b6a0c9.js?body=1" for ::1 at 2015-04-14 14:44:34 -0500
+
+
+Started GET "/assets/bootstrap/collapse-6647808800ef18c519a07d4522a671ae.js?body=1" for ::1 at 2015-04-14 14:44:34 -0500
+
+
+Started GET "/assets/bootstrap/dropdown-31b9e8fcac840fbbf83cf175035b9924.js?body=1" for ::1 at 2015-04-14 14:44:34 -0500
+
+
+Started GET "/assets/bootstrap/modal-0f8acbc4424b32fcf755478e0c2ed06a.js?body=1" for ::1 at 2015-04-14 14:44:34 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy-a5db3e8b0b0b120662421b77a377e239.js?body=1" for ::1 at 2015-04-14 14:44:34 -0500
+
+
+Started GET "/assets/bootstrap/tab-f61048b766bf9184013683e176db6a73.js?body=1" for ::1 at 2015-04-14 14:44:34 -0500
+
+
+Started GET "/assets/bootstrap/transition-238cfc9a464fcdeb9269f21d5b4dfd8f.js?body=1" for ::1 at 2015-04-14 14:44:34 -0500
+
+
+Started GET "/assets/bootstrap/tooltip-14e96fc5e98662559779c4cee8f36754.js?body=1" for ::1 at 2015-04-14 14:44:34 -0500
+
+
+Started GET "/assets/bootstrap/popover-4999d9a57c95f4eb27292a53c448c838.js?body=1" for ::1 at 2015-04-14 14:44:34 -0500
+
+
+Started GET "/assets/bootstrap-sprockets-ee91289943d3f5c985484dc647b331d8.js?body=1" for ::1 at 2015-04-14 14:44:34 -0500
+
+
+Started GET "/users/1" for ::1 at 2015-04-14 14:44:37 -0500
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered users/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 101ms (Views: 99.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2015-04-14 14:46:12 -0500
+Processing by LandingsController#show as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered landings/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 1381ms (Views: 1379.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2015-04-14 14:53:23 -0500
+Processing by LandingsController#show as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered landings/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 103ms (Views: 100.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/bootstrap/alert-8742a23be47b05fd9406ee1af01ba728.js?body=1" for ::1 at 2015-04-14 14:53:24 -0500
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-04-14 14:53:24 -0500
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-04-14 14:53:24 -0500
+
+
+Started GET "/assets/bootstrap/button-f2a77a4a52c432e89d9bed56996796c4.js?body=1" for ::1 at 2015-04-14 14:53:24 -0500
+
+
+Started GET "/assets/bootstrap/affix-9291e82dbf9e5b081ccde6fb9e73d2a5.js?body=1" for ::1 at 2015-04-14 14:53:24 -0500
+
+
+Started GET "/assets/bootstrap/carousel-ee431c0c85f7f0c2b664413a55b6a0c9.js?body=1" for ::1 at 2015-04-14 14:53:24 -0500
+
+
+Started GET "/assets/bootstrap/collapse-6647808800ef18c519a07d4522a671ae.js?body=1" for ::1 at 2015-04-14 14:53:24 -0500
+
+
+Started GET "/assets/bootstrap/dropdown-31b9e8fcac840fbbf83cf175035b9924.js?body=1" for ::1 at 2015-04-14 14:53:24 -0500
+
+
+Started GET "/assets/bootstrap/modal-0f8acbc4424b32fcf755478e0c2ed06a.js?body=1" for ::1 at 2015-04-14 14:53:24 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy-a5db3e8b0b0b120662421b77a377e239.js?body=1" for ::1 at 2015-04-14 14:53:24 -0500
+
+
+Started GET "/assets/bootstrap/tab-f61048b766bf9184013683e176db6a73.js?body=1" for ::1 at 2015-04-14 14:53:24 -0500
+
+
+Started GET "/assets/bootstrap/transition-238cfc9a464fcdeb9269f21d5b4dfd8f.js?body=1" for ::1 at 2015-04-14 14:53:24 -0500
+
+
+Started GET "/assets/bootstrap/tooltip-14e96fc5e98662559779c4cee8f36754.js?body=1" for ::1 at 2015-04-14 14:53:24 -0500
+
+
+Started GET "/assets/bootstrap/popover-4999d9a57c95f4eb27292a53c448c838.js?body=1" for ::1 at 2015-04-14 14:53:24 -0500
+
+
+Started GET "/assets/bootstrap-sprockets-ee91289943d3f5c985484dc647b331d8.js?body=1" for ::1 at 2015-04-14 14:53:24 -0500
+
+
+Started GET "/" for ::1 at 2015-04-14 14:53:43 -0500
+Processing by LandingsController#show as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered landings/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 105ms (Views: 102.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/bootstrap/affix-9291e82dbf9e5b081ccde6fb9e73d2a5.js?body=1" for ::1 at 2015-04-14 14:53:43 -0500
+
+
+Started GET "/assets/bootstrap/alert-8742a23be47b05fd9406ee1af01ba728.js?body=1" for ::1 at 2015-04-14 14:53:43 -0500
+
+
+Started GET "/assets/bootstrap/button-f2a77a4a52c432e89d9bed56996796c4.js?body=1" for ::1 at 2015-04-14 14:53:43 -0500
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-04-14 14:53:43 -0500
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-04-14 14:53:43 -0500
+
+
+Started GET "/assets/bootstrap/collapse-6647808800ef18c519a07d4522a671ae.js?body=1" for ::1 at 2015-04-14 14:53:43 -0500
+
+
+Started GET "/assets/bootstrap/carousel-ee431c0c85f7f0c2b664413a55b6a0c9.js?body=1" for ::1 at 2015-04-14 14:53:43 -0500
+
+
+Started GET "/assets/bootstrap/dropdown-31b9e8fcac840fbbf83cf175035b9924.js?body=1" for ::1 at 2015-04-14 14:53:43 -0500
+
+
+Started GET "/assets/bootstrap/tab-f61048b766bf9184013683e176db6a73.js?body=1" for ::1 at 2015-04-14 14:53:43 -0500
+
+
+Started GET "/assets/bootstrap/transition-238cfc9a464fcdeb9269f21d5b4dfd8f.js?body=1" for ::1 at 2015-04-14 14:53:43 -0500
+
+
+Started GET "/assets/bootstrap/modal-0f8acbc4424b32fcf755478e0c2ed06a.js?body=1" for ::1 at 2015-04-14 14:53:43 -0500
+
+
+Started GET "/assets/bootstrap/tooltip-14e96fc5e98662559779c4cee8f36754.js?body=1" for ::1 at 2015-04-14 14:53:43 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy-a5db3e8b0b0b120662421b77a377e239.js?body=1" for ::1 at 2015-04-14 14:53:43 -0500
+
+
+Started GET "/assets/bootstrap/popover-4999d9a57c95f4eb27292a53c448c838.js?body=1" for ::1 at 2015-04-14 14:53:43 -0500
+
+
+Started GET "/assets/bootstrap-sprockets-ee91289943d3f5c985484dc647b331d8.js?body=1" for ::1 at 2015-04-14 14:53:43 -0500
+
+
+Started GET "/" for ::1 at 2015-04-14 14:54:02 -0500
+Processing by LandingsController#show as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered landings/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 59ms (Views: 56.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-04-14 14:54:02 -0500
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-04-14 14:54:02 -0500
+
+
+Started GET "/assets/bootstrap/affix-9291e82dbf9e5b081ccde6fb9e73d2a5.js?body=1" for ::1 at 2015-04-14 14:54:02 -0500
+
+
+Started GET "/assets/bootstrap/alert-8742a23be47b05fd9406ee1af01ba728.js?body=1" for ::1 at 2015-04-14 14:54:02 -0500
+
+
+Started GET "/assets/bootstrap/button-f2a77a4a52c432e89d9bed56996796c4.js?body=1" for ::1 at 2015-04-14 14:54:02 -0500
+
+
+Started GET "/assets/bootstrap/carousel-ee431c0c85f7f0c2b664413a55b6a0c9.js?body=1" for ::1 at 2015-04-14 14:54:02 -0500
+
+
+Started GET "/assets/bootstrap/collapse-6647808800ef18c519a07d4522a671ae.js?body=1" for ::1 at 2015-04-14 14:54:02 -0500
+
+
+Started GET "/assets/bootstrap/dropdown-31b9e8fcac840fbbf83cf175035b9924.js?body=1" for ::1 at 2015-04-14 14:54:02 -0500
+
+
+Started GET "/assets/bootstrap/modal-0f8acbc4424b32fcf755478e0c2ed06a.js?body=1" for ::1 at 2015-04-14 14:54:02 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy-a5db3e8b0b0b120662421b77a377e239.js?body=1" for ::1 at 2015-04-14 14:54:02 -0500
+
+
+Started GET "/assets/bootstrap/tab-f61048b766bf9184013683e176db6a73.js?body=1" for ::1 at 2015-04-14 14:54:02 -0500
+
+
+Started GET "/assets/bootstrap/transition-238cfc9a464fcdeb9269f21d5b4dfd8f.js?body=1" for ::1 at 2015-04-14 14:54:02 -0500
+
+
+Started GET "/assets/bootstrap/tooltip-14e96fc5e98662559779c4cee8f36754.js?body=1" for ::1 at 2015-04-14 14:54:02 -0500
+
+
+Started GET "/assets/bootstrap/popover-4999d9a57c95f4eb27292a53c448c838.js?body=1" for ::1 at 2015-04-14 14:54:02 -0500
+
+
+Started GET "/assets/bootstrap-sprockets-ee91289943d3f5c985484dc647b331d8.js?body=1" for ::1 at 2015-04-14 14:54:02 -0500
+
+
+Started GET "/" for ::1 at 2015-04-14 14:57:55 -0500
+Processing by LandingsController#show as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered landings/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 57ms (Views: 55.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-04-14 14:57:55 -0500
+
+
+Started GET "/assets/bootstrap/affix-9291e82dbf9e5b081ccde6fb9e73d2a5.js?body=1" for ::1 at 2015-04-14 14:57:55 -0500
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-04-14 14:57:55 -0500
+
+
+Started GET "/assets/bootstrap/alert-8742a23be47b05fd9406ee1af01ba728.js?body=1" for ::1 at 2015-04-14 14:57:55 -0500
+
+
+Started GET "/assets/bootstrap/carousel-ee431c0c85f7f0c2b664413a55b6a0c9.js?body=1" for ::1 at 2015-04-14 14:57:55 -0500
+
+
+Started GET "/assets/bootstrap/button-f2a77a4a52c432e89d9bed56996796c4.js?body=1" for ::1 at 2015-04-14 14:57:55 -0500
+
+
+Started GET "/assets/bootstrap/collapse-6647808800ef18c519a07d4522a671ae.js?body=1" for ::1 at 2015-04-14 14:57:55 -0500
+
+
+Started GET "/assets/bootstrap/dropdown-31b9e8fcac840fbbf83cf175035b9924.js?body=1" for ::1 at 2015-04-14 14:57:55 -0500
+
+
+Started GET "/assets/bootstrap/modal-0f8acbc4424b32fcf755478e0c2ed06a.js?body=1" for ::1 at 2015-04-14 14:57:55 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy-a5db3e8b0b0b120662421b77a377e239.js?body=1" for ::1 at 2015-04-14 14:57:55 -0500
+
+
+Started GET "/assets/bootstrap/transition-238cfc9a464fcdeb9269f21d5b4dfd8f.js?body=1" for ::1 at 2015-04-14 14:57:55 -0500
+
+
+Started GET "/assets/bootstrap/tab-f61048b766bf9184013683e176db6a73.js?body=1" for ::1 at 2015-04-14 14:57:55 -0500
+
+
+Started GET "/assets/bootstrap/popover-4999d9a57c95f4eb27292a53c448c838.js?body=1" for ::1 at 2015-04-14 14:57:55 -0500
+
+
+Started GET "/assets/bootstrap-sprockets-ee91289943d3f5c985484dc647b331d8.js?body=1" for ::1 at 2015-04-14 14:57:55 -0500
+
+
+Started GET "/assets/bootstrap/tooltip-14e96fc5e98662559779c4cee8f36754.js?body=1" for ::1 at 2015-04-14 14:57:55 -0500
