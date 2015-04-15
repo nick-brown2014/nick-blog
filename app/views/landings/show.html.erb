@@ -251,13 +251,21 @@ footer {
     left: 5%;
 }
 
-@media only screen and (max-device-width: 480px) {
     footer {
         display: none;
     }
 
     .nav_footer {
         display: none;
+    }
+
+@media only screen and (min-width: 480px) {
+    footer {
+        display: block;
+    }
+
+    .nav_footer {
+        display: block;
     }
 }
 

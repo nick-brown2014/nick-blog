@@ -11977,3 +11977,368 @@ Started GET "/assets/bootstrap-sprockets-ee91289943d3f5c985484dc647b331d8.js?bod
 
 
 Started GET "/assets/bootstrap/tooltip-14e96fc5e98662559779c4cee8f36754.js?body=1" for ::1 at 2015-04-14 14:57:55 -0500
+
+
+Started GET "/" for ::1 at 2015-04-14 15:04:47 -0500
+Processing by LandingsController#show as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered landings/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 104ms (Views: 101.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-04-14 15:04:48 -0500
+
+
+Started GET "/assets/bootstrap/alert-8742a23be47b05fd9406ee1af01ba728.js?body=1" for ::1 at 2015-04-14 15:04:48 -0500
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-04-14 15:04:48 -0500
+
+
+Started GET "/assets/bootstrap/affix-9291e82dbf9e5b081ccde6fb9e73d2a5.js?body=1" for ::1 at 2015-04-14 15:04:48 -0500
+
+
+Started GET "/assets/bootstrap/button-f2a77a4a52c432e89d9bed56996796c4.js?body=1" for ::1 at 2015-04-14 15:04:48 -0500
+
+
+Started GET "/assets/bootstrap/carousel-ee431c0c85f7f0c2b664413a55b6a0c9.js?body=1" for ::1 at 2015-04-14 15:04:48 -0500
+
+
+Started GET "/assets/bootstrap/collapse-6647808800ef18c519a07d4522a671ae.js?body=1" for ::1 at 2015-04-14 15:04:48 -0500
+
+
+Started GET "/assets/bootstrap/dropdown-31b9e8fcac840fbbf83cf175035b9924.js?body=1" for ::1 at 2015-04-14 15:04:48 -0500
+
+
+Started GET "/assets/bootstrap/modal-0f8acbc4424b32fcf755478e0c2ed06a.js?body=1" for ::1 at 2015-04-14 15:04:48 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy-a5db3e8b0b0b120662421b77a377e239.js?body=1" for ::1 at 2015-04-14 15:04:48 -0500
+
+
+Started GET "/assets/bootstrap/tab-f61048b766bf9184013683e176db6a73.js?body=1" for ::1 at 2015-04-14 15:04:48 -0500
+
+
+Started GET "/assets/bootstrap/transition-238cfc9a464fcdeb9269f21d5b4dfd8f.js?body=1" for ::1 at 2015-04-14 15:04:48 -0500
+
+
+Started GET "/assets/bootstrap/tooltip-14e96fc5e98662559779c4cee8f36754.js?body=1" for ::1 at 2015-04-14 15:04:48 -0500
+
+
+Started GET "/assets/bootstrap/popover-4999d9a57c95f4eb27292a53c448c838.js?body=1" for ::1 at 2015-04-14 15:04:48 -0500
+
+
+Started GET "/assets/bootstrap-sprockets-ee91289943d3f5c985484dc647b331d8.js?body=1" for ::1 at 2015-04-14 15:04:48 -0500
+
+
+Started GET "/" for ::1 at 2015-04-14 15:05:15 -0500
+Processing by LandingsController#show as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered landings/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 111ms (Views: 108.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/bootstrap/alert-8742a23be47b05fd9406ee1af01ba728.js?body=1" for ::1 at 2015-04-14 15:05:15 -0500
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-04-14 15:05:15 -0500
+
+
+Started GET "/assets/bootstrap/affix-9291e82dbf9e5b081ccde6fb9e73d2a5.js?body=1" for ::1 at 2015-04-14 15:05:15 -0500
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-04-14 15:05:15 -0500
+
+
+Started GET "/assets/bootstrap/carousel-ee431c0c85f7f0c2b664413a55b6a0c9.js?body=1" for ::1 at 2015-04-14 15:05:15 -0500
+
+
+Started GET "/assets/bootstrap/button-f2a77a4a52c432e89d9bed56996796c4.js?body=1" for ::1 at 2015-04-14 15:05:15 -0500
+
+
+Started GET "/assets/bootstrap/dropdown-31b9e8fcac840fbbf83cf175035b9924.js?body=1" for ::1 at 2015-04-14 15:05:15 -0500
+
+
+Started GET "/assets/bootstrap/collapse-6647808800ef18c519a07d4522a671ae.js?body=1" for ::1 at 2015-04-14 15:05:15 -0500
+
+
+Started GET "/assets/bootstrap/modal-0f8acbc4424b32fcf755478e0c2ed06a.js?body=1" for ::1 at 2015-04-14 15:05:15 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy-a5db3e8b0b0b120662421b77a377e239.js?body=1" for ::1 at 2015-04-14 15:05:15 -0500
+
+
+Started GET "/assets/bootstrap/tab-f61048b766bf9184013683e176db6a73.js?body=1" for ::1 at 2015-04-14 15:05:15 -0500
+
+
+Started GET "/assets/bootstrap/transition-238cfc9a464fcdeb9269f21d5b4dfd8f.js?body=1" for ::1 at 2015-04-14 15:05:15 -0500
+
+
+Started GET "/assets/bootstrap/tooltip-14e96fc5e98662559779c4cee8f36754.js?body=1" for ::1 at 2015-04-14 15:05:15 -0500
+
+
+Started GET "/assets/bootstrap/popover-4999d9a57c95f4eb27292a53c448c838.js?body=1" for ::1 at 2015-04-14 15:05:15 -0500
+
+
+Started GET "/assets/bootstrap-sprockets-ee91289943d3f5c985484dc647b331d8.js?body=1" for ::1 at 2015-04-14 15:05:15 -0500
+
+
+Started GET "/" for ::1 at 2015-04-14 15:10:36 -0500
+Processing by LandingsController#show as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered landings/show.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 57ms (Views: 55.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-04-14 15:10:36 -0500
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-04-14 15:10:36 -0500
+
+
+Started GET "/assets/bootstrap/alert-8742a23be47b05fd9406ee1af01ba728.js?body=1" for ::1 at 2015-04-14 15:10:36 -0500
+
+
+Started GET "/assets/bootstrap/button-f2a77a4a52c432e89d9bed56996796c4.js?body=1" for ::1 at 2015-04-14 15:10:36 -0500
+
+
+Started GET "/assets/bootstrap/carousel-ee431c0c85f7f0c2b664413a55b6a0c9.js?body=1" for ::1 at 2015-04-14 15:10:36 -0500
+
+
+Started GET "/assets/bootstrap/affix-9291e82dbf9e5b081ccde6fb9e73d2a5.js?body=1" for ::1 at 2015-04-14 15:10:36 -0500
+
+
+Started GET "/assets/bootstrap/collapse-6647808800ef18c519a07d4522a671ae.js?body=1" for ::1 at 2015-04-14 15:10:36 -0500
+
+
+Started GET "/assets/bootstrap/dropdown-31b9e8fcac840fbbf83cf175035b9924.js?body=1" for ::1 at 2015-04-14 15:10:36 -0500
+
+
+Started GET "/assets/bootstrap/modal-0f8acbc4424b32fcf755478e0c2ed06a.js?body=1" for ::1 at 2015-04-14 15:10:36 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy-a5db3e8b0b0b120662421b77a377e239.js?body=1" for ::1 at 2015-04-14 15:10:36 -0500
+
+
+Started GET "/assets/bootstrap/tab-f61048b766bf9184013683e176db6a73.js?body=1" for ::1 at 2015-04-14 15:10:36 -0500
+
+
+Started GET "/assets/bootstrap/transition-238cfc9a464fcdeb9269f21d5b4dfd8f.js?body=1" for ::1 at 2015-04-14 15:10:36 -0500
+
+
+Started GET "/assets/bootstrap/tooltip-14e96fc5e98662559779c4cee8f36754.js?body=1" for ::1 at 2015-04-14 15:10:36 -0500
+
+
+Started GET "/assets/bootstrap/popover-4999d9a57c95f4eb27292a53c448c838.js?body=1" for ::1 at 2015-04-14 15:10:36 -0500
+
+
+Started GET "/assets/bootstrap-sprockets-ee91289943d3f5c985484dc647b331d8.js?body=1" for ::1 at 2015-04-14 15:10:36 -0500
+
+
+Started GET "/" for ::1 at 2015-04-15 12:06:42 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (26.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by LandingsController#show as HTML
+  [1m[35mUser Load (25.3ms)[0m  SELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered landings/show.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 360ms (Views: 264.8ms | ActiveRecord: 57.2ms)
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-04-15 12:06:43 -0500
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-04-15 12:06:43 -0500
+
+
+Started GET "/assets/bootstrap/affix-9291e82dbf9e5b081ccde6fb9e73d2a5.js?body=1" for ::1 at 2015-04-15 12:06:43 -0500
+
+
+Started GET "/assets/bootstrap/alert-8742a23be47b05fd9406ee1af01ba728.js?body=1" for ::1 at 2015-04-15 12:06:43 -0500
+
+
+Started GET "/assets/bootstrap/button-f2a77a4a52c432e89d9bed56996796c4.js?body=1" for ::1 at 2015-04-15 12:06:43 -0500
+
+
+Started GET "/assets/bootstrap/carousel-ee431c0c85f7f0c2b664413a55b6a0c9.js?body=1" for ::1 at 2015-04-15 12:06:43 -0500
+
+
+Started GET "/assets/bootstrap/collapse-6647808800ef18c519a07d4522a671ae.js?body=1" for ::1 at 2015-04-15 12:06:43 -0500
+
+
+Started GET "/assets/bootstrap/dropdown-31b9e8fcac840fbbf83cf175035b9924.js?body=1" for ::1 at 2015-04-15 12:06:43 -0500
+
+
+Started GET "/assets/bootstrap/modal-0f8acbc4424b32fcf755478e0c2ed06a.js?body=1" for ::1 at 2015-04-15 12:06:43 -0500
+
+
+Started GET "/assets/bootstrap/tab-f61048b766bf9184013683e176db6a73.js?body=1" for ::1 at 2015-04-15 12:06:43 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy-a5db3e8b0b0b120662421b77a377e239.js?body=1" for ::1 at 2015-04-15 12:06:43 -0500
+
+
+Started GET "/assets/bootstrap/transition-238cfc9a464fcdeb9269f21d5b4dfd8f.js?body=1" for ::1 at 2015-04-15 12:06:43 -0500
+
+
+Started GET "/assets/bootstrap/tooltip-14e96fc5e98662559779c4cee8f36754.js?body=1" for ::1 at 2015-04-15 12:06:43 -0500
+
+
+Started GET "/assets/bootstrap/popover-4999d9a57c95f4eb27292a53c448c838.js?body=1" for ::1 at 2015-04-15 12:06:43 -0500
+
+
+Started GET "/assets/bootstrap-sprockets-ee91289943d3f5c985484dc647b331d8.js?body=1" for ::1 at 2015-04-15 12:06:43 -0500
+
+
+Started GET "/" for ::1 at 2015-04-15 12:28:56 -0500
+Processing by LandingsController#show as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered landings/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 137ms (Views: 134.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-04-15 12:28:56 -0500
+
+
+Started GET "/assets/bootstrap/carousel-ee431c0c85f7f0c2b664413a55b6a0c9.js?body=1" for ::1 at 2015-04-15 12:28:56 -0500
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-04-15 12:28:56 -0500
+
+
+Started GET "/assets/bootstrap/affix-9291e82dbf9e5b081ccde6fb9e73d2a5.js?body=1" for ::1 at 2015-04-15 12:28:56 -0500
+
+
+Started GET "/assets/bootstrap/button-f2a77a4a52c432e89d9bed56996796c4.js?body=1" for ::1 at 2015-04-15 12:28:56 -0500
+
+
+Started GET "/assets/bootstrap/alert-8742a23be47b05fd9406ee1af01ba728.js?body=1" for ::1 at 2015-04-15 12:28:56 -0500
+
+
+Started GET "/assets/bootstrap/collapse-6647808800ef18c519a07d4522a671ae.js?body=1" for ::1 at 2015-04-15 12:28:56 -0500
+
+
+Started GET "/assets/bootstrap/dropdown-31b9e8fcac840fbbf83cf175035b9924.js?body=1" for ::1 at 2015-04-15 12:28:56 -0500
+
+
+Started GET "/assets/bootstrap/modal-0f8acbc4424b32fcf755478e0c2ed06a.js?body=1" for ::1 at 2015-04-15 12:28:56 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy-a5db3e8b0b0b120662421b77a377e239.js?body=1" for ::1 at 2015-04-15 12:28:56 -0500
+
+
+Started GET "/assets/bootstrap/tab-f61048b766bf9184013683e176db6a73.js?body=1" for ::1 at 2015-04-15 12:28:56 -0500
+
+
+Started GET "/assets/bootstrap/transition-238cfc9a464fcdeb9269f21d5b4dfd8f.js?body=1" for ::1 at 2015-04-15 12:28:56 -0500
+
+
+Started GET "/assets/bootstrap/tooltip-14e96fc5e98662559779c4cee8f36754.js?body=1" for ::1 at 2015-04-15 12:28:56 -0500
+
+
+Started GET "/assets/bootstrap/popover-4999d9a57c95f4eb27292a53c448c838.js?body=1" for ::1 at 2015-04-15 12:28:56 -0500
+
+
+Started GET "/assets/bootstrap-sprockets-ee91289943d3f5c985484dc647b331d8.js?body=1" for ::1 at 2015-04-15 12:28:56 -0500
+
+
+Started GET "/" for ::1 at 2015-04-15 12:29:14 -0500
+Processing by LandingsController#show as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered landings/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 102ms (Views: 99.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/bootstrap/affix-9291e82dbf9e5b081ccde6fb9e73d2a5.js?body=1" for ::1 at 2015-04-15 12:29:15 -0500
+
+
+Started GET "/assets/bootstrap/alert-8742a23be47b05fd9406ee1af01ba728.js?body=1" for ::1 at 2015-04-15 12:29:15 -0500
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-04-15 12:29:15 -0500
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-04-15 12:29:15 -0500
+
+
+Started GET "/assets/bootstrap/button-f2a77a4a52c432e89d9bed56996796c4.js?body=1" for ::1 at 2015-04-15 12:29:15 -0500
+
+
+Started GET "/assets/bootstrap/dropdown-31b9e8fcac840fbbf83cf175035b9924.js?body=1" for ::1 at 2015-04-15 12:29:15 -0500
+
+
+Started GET "/assets/bootstrap/carousel-ee431c0c85f7f0c2b664413a55b6a0c9.js?body=1" for ::1 at 2015-04-15 12:29:15 -0500
+
+
+Started GET "/assets/bootstrap/modal-0f8acbc4424b32fcf755478e0c2ed06a.js?body=1" for ::1 at 2015-04-15 12:29:15 -0500
+
+
+Started GET "/assets/bootstrap/collapse-6647808800ef18c519a07d4522a671ae.js?body=1" for ::1 at 2015-04-15 12:29:15 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy-a5db3e8b0b0b120662421b77a377e239.js?body=1" for ::1 at 2015-04-15 12:29:15 -0500
+
+
+Started GET "/assets/bootstrap/transition-238cfc9a464fcdeb9269f21d5b4dfd8f.js?body=1" for ::1 at 2015-04-15 12:29:15 -0500
+
+
+Started GET "/assets/bootstrap/tab-f61048b766bf9184013683e176db6a73.js?body=1" for ::1 at 2015-04-15 12:29:15 -0500
+
+
+Started GET "/assets/bootstrap/tooltip-14e96fc5e98662559779c4cee8f36754.js?body=1" for ::1 at 2015-04-15 12:29:15 -0500
+
+
+Started GET "/assets/bootstrap/popover-4999d9a57c95f4eb27292a53c448c838.js?body=1" for ::1 at 2015-04-15 12:29:15 -0500
+
+
+Started GET "/assets/bootstrap-sprockets-ee91289943d3f5c985484dc647b331d8.js?body=1" for ::1 at 2015-04-15 12:29:15 -0500
+
+
+Started GET "/" for ::1 at 2015-04-15 12:29:30 -0500
+Processing by LandingsController#show as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users"  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered landings/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 141ms (Views: 138.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/bootstrap/affix-9291e82dbf9e5b081ccde6fb9e73d2a5.js?body=1" for ::1 at 2015-04-15 12:29:30 -0500
+
+
+Started GET "/assets/bootstrap/button-f2a77a4a52c432e89d9bed56996796c4.js?body=1" for ::1 at 2015-04-15 12:29:30 -0500
+
+
+Started GET "/assets/bootstrap/alert-8742a23be47b05fd9406ee1af01ba728.js?body=1" for ::1 at 2015-04-15 12:29:30 -0500
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-04-15 12:29:30 -0500
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-04-15 12:29:30 -0500
+
+
+Started GET "/assets/bootstrap/carousel-ee431c0c85f7f0c2b664413a55b6a0c9.js?body=1" for ::1 at 2015-04-15 12:29:30 -0500
+
+
+Started GET "/assets/bootstrap/collapse-6647808800ef18c519a07d4522a671ae.js?body=1" for ::1 at 2015-04-15 12:29:30 -0500
+
+
+Started GET "/assets/bootstrap/dropdown-31b9e8fcac840fbbf83cf175035b9924.js?body=1" for ::1 at 2015-04-15 12:29:30 -0500
+
+
+Started GET "/assets/bootstrap/modal-0f8acbc4424b32fcf755478e0c2ed06a.js?body=1" for ::1 at 2015-04-15 12:29:30 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy-a5db3e8b0b0b120662421b77a377e239.js?body=1" for ::1 at 2015-04-15 12:29:30 -0500
+
+
+Started GET "/assets/bootstrap/tab-f61048b766bf9184013683e176db6a73.js?body=1" for ::1 at 2015-04-15 12:29:30 -0500
+
+
+Started GET "/assets/bootstrap/transition-238cfc9a464fcdeb9269f21d5b4dfd8f.js?body=1" for ::1 at 2015-04-15 12:29:30 -0500
+
+
+Started GET "/assets/bootstrap/tooltip-14e96fc5e98662559779c4cee8f36754.js?body=1" for ::1 at 2015-04-15 12:29:30 -0500
+
+
+Started GET "/assets/bootstrap/popover-4999d9a57c95f4eb27292a53c448c838.js?body=1" for ::1 at 2015-04-15 12:29:30 -0500
+
+
+Started GET "/assets/bootstrap-sprockets-ee91289943d3f5c985484dc647b331d8.js?body=1" for ::1 at 2015-04-15 12:29:30 -0500
