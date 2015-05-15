@@ -292,7 +292,7 @@ footer {
         });
     });
 </script>
-
+<%= favicon_link_tag %>
 <body>
     <div class="container">
         <div id="blog"><a href="/blog_posts"><img src="https://github.com/nick-brown2014/nick-brown2014.github.io/blob/master/blog-posts/imgs/blog.png?raw=true"></a></div>
@@ -313,7 +313,7 @@ footer {
     <footer>
         <div class="foot" id="foot-about">
             <h1><%= link_to("About Me", user_path(@user.id)) %></h1>
-            <p>I am a Chicago based developer who loves doodling and will incorporate that into web design no matter how many people say that it's unprofessional.</p>
+            <p>I am a Chicago based freelance developer who cares about building websites that are modern, responsive and above all, unique. Apart from helping you and your brand build the web presence you need, I am commmited to transparency and honesty in my work.</p>
         </div>
         <div class="foot" id="foot-blog">
             <h1><%= link_to("Blog Posts", blog_posts_path) %></h1>
